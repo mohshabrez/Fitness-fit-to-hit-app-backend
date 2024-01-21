@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get("/", async (req, res) => {
-    res.send("Hello Financial");
+    res.send("Hello Fitness Freak");
 });
 
 app.use("/api/v1", authRouter);
